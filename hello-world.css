@@ -14,6 +14,20 @@ input {
 }
 
 input:focus {
-    border: 1px dashed greenyellow;   
-    outline: none; 
+    border: 1px dashed greenyellow;
+    outline: none;
+}
+
+button {
+    background-color: black;
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.5rem;
+    border: 1px solid greenyellow;
+}
+
+button:hover, button:focus {
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
 }
